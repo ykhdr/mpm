@@ -1,0 +1,7 @@
+{:paths ["."]
+ :deps {org.clojure/clojure {:mvn/version "1.11.3"}}
+ :aliases
+ {:test  {:extra-deps {io.github.cognitect-labs/test-runner
+                       {:git/tag "v0.5.1" :git/sha "dfb30dd"}}
+          :main-opts  ["-i" "2.clj" "-m" "cognitect.test-runner" "-d" "."]}
+  :bench {:main-opts ["-i" "2.clj" "-i" "bench.clj" "-m" "lab3.part2.bench"]}}}
