@@ -1,0 +1,5 @@
+{:paths ["."]
+ :deps {org.clojure/clojure {:mvn/version "1.11.3"}}
+ :aliases
+ {:run   {:main-opts ["-i" "1.clj" "-m" "lab2.part1"]}
+  :bench {:main-opts ["-i" "1.clj" "-i" "bench1.clj" "-m" "lab2.part1.bench"]}}}

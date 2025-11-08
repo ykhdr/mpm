@@ -1,0 +1,9 @@
+.clj-kondo/
+.lsp/
+.DS_Store
+# editor dirs
+.vscode/
+.idea/
+# build artifacts
+target/
+node_modules/
