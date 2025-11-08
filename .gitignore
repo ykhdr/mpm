@@ -7,3 +7,4 @@
 # build artifacts
 target/
 node_modules/
+.cppcache/
